@@ -1,6 +1,7 @@
 #include <stdio.h>
 /** 
- * Printing sentence without using printf 
+ * main - Entry pount
+ * Retunrn: Always 0 (Success)
  */
 int main(void)
 	{
