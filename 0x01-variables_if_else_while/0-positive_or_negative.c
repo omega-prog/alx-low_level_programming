@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/* 
+/** 
  * main: Entry Point.
- * Return: 0 (Success) */
-
-/* betty style doc for function main goes there */
+ * Return: 0 (Success) 
+ */
 int main(void)
 {
 	int n;
