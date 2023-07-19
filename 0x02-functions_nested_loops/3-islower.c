@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - function that prints 10 times the alphabet, in lowercase
- * 
- * @c : check input of funtion
+ *_islower - function that prints 10 times the alphabet, in lowercase
  *
- * Return: Returns 1 if c is lowercase
- * Returns 0 otherwise
+ *@c : check input of funtion
+ *
+ *Return: Returns 1 if c is lowercase
+ *Returns 0 otherwise
  */
 int _islower(int c)
 {
