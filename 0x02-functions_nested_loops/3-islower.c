@@ -6,7 +6,7 @@
  * @c : check input of funtion
  *
  * Return: Returns 1 if c is lowercase
-Returns 0 otherwise
+ * Returns 0 otherwise
  */
 int _islower(int c)
 {
