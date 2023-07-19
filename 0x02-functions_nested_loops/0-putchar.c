@@ -12,7 +12,7 @@ int main(void)
 	int chr;
 
 	for (chr = 0; chr < 8; chr++)
-		_putchar(str[chr]);
+		putchar(str[chr]);
 	_putchar('\n');
 
 	return (0);
