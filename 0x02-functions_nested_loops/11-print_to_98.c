@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
@@ -6,17 +6,15 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_to_98(int n)
 {
-	int i, sum = 0;
+	int count;
 
-	for (i = 0; i < 1024; i++)
-	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-			sum += i;
-	}
-
-	printf("%d\n", sum);
-
-	return (0);
+	if (n > 98)
+		for (count = n; count > 98; count--)
+			printf("%d, ",count);
+	else
+		for (count = n; count < 98; count++)
+                        printf("%d, ",count);
+	printf("98\n");
 }
