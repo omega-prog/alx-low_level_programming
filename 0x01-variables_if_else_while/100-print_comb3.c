@@ -1,5 +1,7 @@
 #include <stdio.h>
-//Main function returns combination of unique 2 digits.
+/*
+ * Main function returns combination of unique 2 digits.
+ **/
 int main(void)
 {
     int i = 0;
@@ -18,6 +20,8 @@ int main(void)
             putchar(' ');
         }
     }
-    //Return 0 if sucess.
+    /*
+     * Return 0 if sucess.
+     **/
     return (0);
 }
