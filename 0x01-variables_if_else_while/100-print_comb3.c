@@ -19,6 +19,7 @@ int main(void)
             putchar(',');
             putchar(' ');
         }
+	putchat('\n');
     }
     /*
      * Return 0 if sucess.
