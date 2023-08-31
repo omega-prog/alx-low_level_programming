@@ -3,17 +3,17 @@
  * print_last_digit - Prints the last digit of a number.
  * @n: The number in question.
  *
- * Return: Value of the last digit.
+ * Return: Value of the last digit which is x.
  */
 int print_last_digit(int n)
 {
-	int last_digit;
+	int x;
 
-	if (last_digit < 0)
-		last_digit = -1 * (n & 10);
-	else
-		last_digit = n % 10;
-	_putchar(last_digit + '0');
+	x = num % 10;
+	if (x < 0)
+		x = -x;
+	_putchar(x + '0');
+	_putchar('\n');
 
-	return (last_digit);
+	return (x);
 }
