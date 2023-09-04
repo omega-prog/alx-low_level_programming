@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  *
- * main - Prints all possible combinations of two- two numbers.
- * 
- * Return: 0 while success.
+ * Return: 0
  */
 int main(void)
 {
 	int i, k;
+
 	for (i = 0; i <= 98; i++)
 	{
 	for (k = i + 1; k <= 99; k++)
@@ -18,7 +18,7 @@ int main(void)
 		putchar (' ');
 		putchar (k / 10 + '0');
 		putchar (k % 10 + '0');
-		if (i < 99 || k < 100)
+		if (i != 98 || k != 99)
 		{
 			putchar (',');
 			putchar (' ');
