@@ -11,7 +11,7 @@ int main(void)
 	long int b = 4;
 	long int temp;
 
-	printf("%ld", a);
+	printf("%ld, ", a);
 	for (i = 0; i < 3999999; i++)
 	{
 		printf("%ld", b);
