@@ -7,14 +7,14 @@
 int main(void)
 {
 	int i;
-	long long int a = 0;
-	long long int b = 1;
-	long long temp;
+	long int a = 0;
+	long int b = 1;
+	long  temp;
 
-	printf("%lld", a);
+	printf("%ld", a);
 	for (i = 0; i < 49; i++)
 	{
-		printf("%lld", b);
+		printf("%ld", b);
 		if (i < 48)
 			printf(", ");
 		else
