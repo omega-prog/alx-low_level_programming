@@ -7,11 +7,11 @@
 int main(void)
 {
 	int i;
-	long int a = 0;
-	long int b = 1;
+	long int a = 1;
+	long int b = 2;
 	long  temp;
 
-	printf("%ld", a);
+	printf("%ld, ", a);
 	for (i = 0; i < 49; i++)
 	{
 		printf("%ld", b);
