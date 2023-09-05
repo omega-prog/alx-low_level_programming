@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 
 /**
  * main - Entry point the prints the sum of all natural numbers
