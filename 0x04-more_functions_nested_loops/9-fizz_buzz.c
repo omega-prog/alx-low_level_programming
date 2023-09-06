@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+void fezzbuzz(void);
 /**
  * main- Entry point.
  * fezzbuzz- Prints numbers wiht FezzBuzz.
