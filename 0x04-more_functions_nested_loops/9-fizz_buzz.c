@@ -1,20 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-void fezzbuzz(void);
 /**
  * main- Entry point.
- * fezzbuzz- Prints numbers wiht FezzBuzz.
  * Return: 0 while success.
  */
-
 int main(void)
-{
-	fezzbuzz();
-	return (0);
-}
-
-void fezzbuzz(void)
 {
 	int i;
 
@@ -29,4 +20,5 @@ void fezzbuzz(void)
 		else
 			printf("%d ", i);
 	}
+	return (0);
 }
